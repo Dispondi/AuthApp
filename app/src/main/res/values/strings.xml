@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Making Auth App</string>
+    <string name="solve">Solve</string>
+    <string name="a">a</string>
+    <string name="x_2">x^2+</string>
+    <string name="c">c</string>
+    <string name="x">x+</string>
+    <string name="b">b</string>
+    <string name="not_solve">Not solve!</string>
 </resources>

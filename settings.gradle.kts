@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Making Auth App"
+rootProject.name = "The quadratic equation"
 include(":app")
  
