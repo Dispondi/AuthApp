@@ -57,15 +57,16 @@ public class MainActivity extends AppCompatActivity {
             result.setText(R.string.not_solve);
             return;
         }
-        double d = Math.round(Math.pow(b, 2) - 4 * a * c);
-        double x1;
-        double x2;
 
         // проверка на ноль
         if (a == 0) {
             result.setText(R.string.not_solve);
             return;
         }
+
+        double d = Math.round(Math.pow(b, 2) - 4 * a * c);
+        double x1;
+        double x2;
 
         if (d > 0) {
             x1 = ((-b + Math.sqrt(d)) / (2 * a));
